@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: random_question_development
+  pool: 5
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: random_question_test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: random_question_production
+  pool: 5
+  username: postgres
+  password: admin

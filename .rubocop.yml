@@ -1,0 +1,26 @@
+# frozen_string_literal: true
+
+Metrics/LineLength:
+  Max: 150
+  Exclude:
+    - 'config/initializers/devise.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'lib/tasks/**/*'
+    - 'config/**/*'
+    - 'db/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - 'bin/**/*'
