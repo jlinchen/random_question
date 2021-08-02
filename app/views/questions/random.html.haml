@@ -1,6 +1,7 @@
 .container
   .content
-    .question= @question.query
+    .question
+      %span= @question.query
     %a.button{href: random_path} NEXT QUESTION
   %br
 = render "footer"
