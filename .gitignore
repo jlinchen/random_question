@@ -34,3 +34,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# this is just a tempfile with the questions to be added
+questions_to_add.rb
