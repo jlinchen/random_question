@@ -6,13 +6,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 6.1.4'
+gem 'rails', '>= 7.0.1'
 # Use Puma as the app server
 gem 'jbuilder', '~> 2.7'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 5.6'
 
-gem 'mail'
+gem 'mail', '>= 2.7.1'
 
 gem 'haml-rails', '~> 2.0'
 gem 'sass-rails', '>= 6'
