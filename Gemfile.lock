@@ -269,6 +269,7 @@ DEPENDENCIES
   haml-rails (~> 2.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  mail
   pg (>= 0.18, < 2.0)
   puma (~> 5.6)
   rack-mini-profiler (~> 2.0)

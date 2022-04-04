@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 5.6'
 
+gem 'mail'
+
 gem 'haml-rails', '~> 2.0'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
