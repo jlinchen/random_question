@@ -1,24 +1,7 @@
-# README
+# Random Question Generator!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The ultimate fun get-to-know question generator!!!
 
-Things you may want to cover:
+This is a simple Rails application (BE & FE).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In order to add questions, please add them in the migrations.
