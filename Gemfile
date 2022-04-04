@@ -10,7 +10,7 @@ gem 'rails', '~> 6.1.4'
 # Use Puma as the app server
 gem 'jbuilder', '~> 2.7'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 5.6'
 
 gem 'haml-rails', '~> 2.0'
 gem 'sass-rails', '>= 6'
