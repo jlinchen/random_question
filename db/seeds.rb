@@ -36,5 +36,5 @@ questions = [
 ]
 
 questions.each do |question|
-  Question.create!(source: source, query: question)
+  Question.create!(source:, query: question)
 end

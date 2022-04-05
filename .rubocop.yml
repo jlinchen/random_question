@@ -5,10 +5,14 @@ AllCops:
   Exclude:
   - 'bin/**/*'
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 150
   Exclude:
     - 'config/initializers/devise.rb'
+    - 'db/**/*'
+
+Metrics/AbcSize:
+  Enabled: false
 
 Metrics/BlockLength:
   Exclude:
@@ -17,11 +21,22 @@ Metrics/BlockLength:
     - 'config/**/*'
     - 'db/**/*'
 
-Style/Documentation:
-  Enabled: false
+Metrics/ClassLength:
+  Exclude:
+    - 'db/**/*'
 
 Metrics/MethodLength:
   Max: 20
+  Exclude:
+    - 'db/**/*'
 
-Metrics/AbcSize:
+Style/Documentation:
   Enabled: false
+
+Style/NumericLiterals:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/StringLiterals:
+  Exclude:
+    - 'db/**/*'
