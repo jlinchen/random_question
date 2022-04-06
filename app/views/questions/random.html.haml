@@ -2,6 +2,11 @@
   .content
     .question
       %span= @question.query
-    %a.button{href: random_path} NEXT QUESTION
+    .buttons
+      %a.button.main-button{href: random_path} NEXT QUESTION
+      %br
+      %a.button.button2.secondary{href: random_path} ONLY WOULD YOU QUESTIONS
+      %br
+      %a.button.button3.secondary{href: random_path} WITHOUT WOULD YOU QUESTIONS
   %br
 = render "footer"
